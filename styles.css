@@ -1,0 +1,17 @@
+.flip-wrapper {
+    cursor: pointer;
+    width: 300px;
+    transition: all .3s;
+    background-color: pink;
+    transform-style: preserve-3d;
+}
+
+.flip-wrapper.flipped {
+    transform: rotateY(180deg);
+}
+
+.flip-image {
+    vertical-align: top;
+    max-width: 100%;
+    transform: translateZ(1px);
+}
