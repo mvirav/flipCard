@@ -26,7 +26,7 @@ const FlipCard = React.createClass({
 
 ReactDOM.render(
     <FlipCard
-        imageSrc="https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572_960_720.jpg"
+        imageSrc="https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg"
         imageAlt="flip card"/>,
     document.getElementById('root')
 )
